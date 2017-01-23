@@ -1,0 +1,26 @@
+﻿[
+  {
+    "outputFile": "app/gnews.style.css",
+    "inputFile": "app/gnews.style.scss"
+  },
+  {
+    "outputFile": "app/core/news/news.style.css",
+    "inputFile": "app/core/news/news.style.scss"
+  },
+  {
+    "outputFile": "app/gnews.vars.css",
+    "inputFile": "app/gnews.vars.scss"
+  },
+  {
+    "outputFile": "app/core/weather/weather.style.css",
+    "inputFile": "app/core/weather/weather.style.scss"
+  },
+  {
+    "outputFile": "app/StyleSheet1.css",
+    "inputFile": "app/StyleSheet1.scss"
+  },
+  {
+    "outputFile": "app/core/article/article.style.css",
+    "inputFile": "app/core/article/article.style.scss"
+  }
+]

@@ -1,0 +1,43 @@
+﻿<!DOCTYPE html>
+<html ng-app="gnewsApp">
+<head>
+    <title>Google News</title>
+    <meta charset="utf-8" />
+    <link href="../Content/bootstrap.css" rel="stylesheet" />
+    <link href="../Content/ui-bootstrap-csp.css" rel="stylesheet" />
+    <link href="gnews.style.min.css" rel="stylesheet" />
+    <link href="core/news/news.style.min.css" rel="stylesheet" />
+    <link href="core/article/article.style.css" rel="stylesheet" />
+</head>
+<body>
+    <div>
+        <nav class="navbar navbar-inverse navbar-news">
+            <div class="container pull-right">
+                <a href="#/news" class="a-news">news</a>
+            </div>
+        </nav>
+    </div>
+    <ui-view></ui-view>
+
+    <!-- global scripts -->
+    <script src="../Scripts/lodash.js"></script>
+
+    <!-- angular scripts -->
+    <script src="../Scripts/angular.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.3.2/angular-ui-router.min.js"></script>
+    <script src="../Scripts/angular-sanitize.js"></script>
+    <script src="../Scripts/angular-local-storage.js"></script>
+
+    <!-- app scripts -->
+    <script src="app.mdl.js"></script>
+    <script src="app.route.js"></script>
+
+    <!-- services, filters and directives scripts -->
+    <script src="common/services/gnews.articles.srv.js"></script>
+
+    <!-- cntrollers scripts -->
+    <script src="core/news/news.ctrl.js"></script>
+    <script src="core/article/article.ctrl.js"></script>
+
+</body>
+</html>
