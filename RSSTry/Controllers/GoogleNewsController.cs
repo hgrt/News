@@ -32,7 +32,7 @@ namespace RSSTry.Controllers
         }
         SyndicationFeed getGoogleNewsFromApi()
         {
-            string url = "http://news.google.com/news?pz=1&cf=all&ned=en_il&hl=en&output=rss";
+            string url = "http://localhost:62877/app/mock/news.xml";
             XmlReader reader = XmlReader.Create(url);
             SyndicationFeed feed = SyndicationFeed.Load(reader);
             reader.Close();

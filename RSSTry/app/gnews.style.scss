@@ -2,13 +2,13 @@
 
 body {
     .navbar-news {
-        background: $color-base !important;
-        border-color: $color-base !important;
+        background: $font-color-title !important;
+        border-color: $font-color-title !important;
     }
 
     .a-news {
-        color: $color-yellow-base !important;
-        font-family: $font-family-base;
+        color: $font-color-title !important;
+        font-family: $font-family-title;
         font-size: 30px;
         font-weight: bold;
     }

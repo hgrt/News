@@ -277,6 +277,7 @@
     <Content Include="app\core\news\news.tmpl.html" />
     <Content Include="app\core\article\article.ctrl.js" />
     <Content Include="app\core\article\article.tmpl.html" />
+    <Content Include="app\core\news\Shine.css" />
     <Content Include="app\gnews.style.css">
       <DependentUpon>gnews.style.scss</DependentUpon>
     </Content>
@@ -290,6 +291,7 @@
       <DependentUpon>gnews.vars.css</DependentUpon>
     </Content>
     <Content Include="app\index.html" />
+    <Content Include="app\mock\news.xml" />
     <Content Include="Areas\HelpPage\HelpPage.css" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />

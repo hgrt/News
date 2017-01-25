@@ -1,24 +1,247 @@
-﻿.news-section .h-news {
-  color: #ffed00;
-  font-family: "Comic Sans MS", cursive, sans-serif;
-  font-size: 58px; }
+﻿.container {
+  margin: 25px auto;
+  position: relative;
+  width: 900px; }
+
+#content {
+  background: #7E7E7E;
+  background: -moz-linear-gradient(top, #f8f8f8 0%, #f9f9f9 100%);
+  background: -webkit-linear-gradient(top, #f8f8f8 0%, #f9f9f9 100%);
+  background: -o-linear-gradient(top, #f8f8f8 0%, #f9f9f9 100%);
+  background: -ms-linear-gradient(top, #f8f8f8 0%, #f9f9f9 100%);
+  background: linear-gradient(top, #f8f8f8 0%, #f9f9f9 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f8f8f8', endColorstr='#f9f9f9',GradientType=0 );
+  -webkit-box-shadow: 0 1px 0 #fff inset;
+  -moz-box-shadow: 0 1px 0 #fff inset;
+  -ms-box-shadow: 0 1px 0 #fff inset;
+  -o-box-shadow: 0 1px 0 #fff inset;
+  box-shadow: 0 1px 0 #fff inset;
+  border: 1px solid #c4c6ca;
+  margin: 3% 3%  3%  3%  auto;
+  padding: 25px 0 0;
+  position: relative;
+  text-align: center;
+  text-shadow: 0 1px 0 #fff; }
+
+#content:after,
+#content:before {
+  background: #f9f9f9;
+  background: -moz-linear-gradient(top, #f8f8f8 0%, #f9f9f9 100%);
+  background: -webkit-linear-gradient(top, #f8f8f8 0%, #f9f9f9 100%);
+  background: -o-linear-gradient(top, #f8f8f8 0%, #f9f9f9 100%);
+  background: -ms-linear-gradient(top, #f8f8f8 0%, #f9f9f9 100%);
+  background: linear-gradient(top, #f8f8f8 0%, #f9f9f9 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f8f8f8', endColorstr='#f9f9f9',GradientType=0 );
+  border: 1px solid #c4c6ca;
+  content: "";
+  display: block;
+  height: 100%;
+  left: -1px;
+  position: absolute;
+  width: 100%; }
+
+#content:after {
+  -webkit-transform: rotate(2deg);
+  -moz-transform: rotate(2deg);
+  -ms-transform: rotate(2deg);
+  -o-transform: rotate(2deg);
+  transform: rotate(2deg);
+  top: 0;
+  z-index: -1;
+  height: 100%; }
+
+#content:before {
+  -webkit-transform: rotate(-3deg);
+  -moz-transform: rotate(-3deg);
+  -ms-transform: rotate(-3deg);
+  -o-transform: rotate(-3deg);
+  transform: rotate(-3deg);
+  top: 0;
+  z-index: -2; }
+
+#content .h-news {
+  color: #ff9200;
+  font: bold 25px Helvetica, Arial, sans-serif;
+  letter-spacing: -0.05em;
+  line-height: 20px;
+  margin: 10px 0 30px;
+  font-size: 200px; }
+
+#content .h-news:before,
+#content .h-news:after {
+  content: "";
+  height: 1px;
+  position: absolute;
+  top: 10px;
+  width: 27%; }
+
+#content .h-news:after {
+  background: #7e7e7e;
+  background: -moz-linear-gradient(left, #7e7e7e 0%, white 100%);
+  background: -webkit-linear-gradient(left, #ff9200 0%, white 100%);
+  background: -o-linear-gradient(left, #7e7e7e 0%, white 100%);
+  background: -ms-linear-gradient(left, #7e7e7e 0%, white 100%);
+  background: linear-gradient(left, #7e7e7e 0%, white 100%);
+  right: 0; }
+
+#content .h-news:before {
+  background: #7e7e7e;
+  background: -moz-linear-gradient(right, #7e7e7e 0%, white 100%);
+  background: -webkit-linear-gradient(right, #ff9200 0%, white 100%);
+  background: -o-linear-gradient(right, #7e7e7e 0%, white 100%);
+  background: -ms-linear-gradient(right, #7e7e7e 0%, white 100%);
+  background: linear-gradient(right, #7e7e7e 0%, white 100%);
+  left: 0; }
+
+.news-section .span-news {
+  color: #000000;
+  font-family: Calibri;
+  font-size: 58px;
+  font-style: italic;
+  font-weight: 100;
+  font-size: 58px;
+  border-bottom-left-radius: 20px;
+  border-bottom-color: #ff9200;
+  border-bottom-style: dotted;
+  border-bottom-width: 8px;
+  text-align: left !important; }
 
 .news-section .div-news {
-  margin-top: 50px !important;
+  margin-top: 50px;
   text-align: center; }
 
 .news-section .div-topics {
-  margin-top: 50px !important; }
+  margin-top: 50px; }
   .news-section .div-topics div {
-    text-align: left !important;
-    padding-bottom: 12px; }
+    text-align: left; }
 
 .news-section .span-news {
-  color: #3ec7e5;
-  font-family: "Comic Sans MS", cursive, sans-serif;
+  color: #000000;
+  font-family: Calibri;
   font-size: 40px; }
 
 .news-section .span-message {
-  color: #3ec7e5;
-  font-family: "Comic Sans MS", cursive, sans-serif; }
+  color: #000000;
+  font-family: Calibri; }
+
+.wrapper {
+  margin: 3em 0; }
+
+a, a:visited, a:hover, a:active {
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  position: relative;
+  transition: 0.5s color ease;
+  text-decoration: none;
+  color: #81b3d2;
+  font-size: 25px; }
+
+a:hover {
+  color: #d73444; }
+
+a.before:before, a.after:after {
+  content: "";
+  transition: 0.5s all ease;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  position: absolute; }
+
+a.before:before {
+  top: -0.25em; }
+
+a.after:after {
+  bottom: -0.25em; }
+
+a.before:before, a.after:after {
+  height: 5px;
+  height: 0.35rem;
+  width: 0;
+  background: #d73444; }
+
+a.first:after {
+  left: 0; }
+
+a.second:after {
+  right: 0; }
+
+a.third:after, a.sixth:before, a.sixth:after {
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%); }
+
+a.fourth:before, a.fourth:after {
+  left: 0; }
+
+a.fifth:before, a.fifth:after {
+  right: 0; }
+
+a.seventh:before {
+  right: 0; }
+
+a.seventh:after {
+  left: 0; }
+
+a.eigth:before {
+  left: 0; }
+
+a.eigth:after {
+  right: 0; }
+
+a.before:hover:before, a.after:hover:after {
+  width: 100%; }
+
+.square {
+  box-sizing: border-box;
+  margin-left: -0.4em;
+  position: relative;
+  font-size: 25px;
+  overflow: hidden; }
+
+.square a {
+  position: static;
+  font-size: 100%;
+  padding: 0.2em 0.4em; }
+
+.square:before, .square:after {
+  content: "";
+  box-sizing: border-box;
+  transition: 0.25s all ease;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  position: absolute;
+  width: 5px;
+  width: 0.35rem;
+  height: 0;
+  background: #d73444; }
+
+.square:before {
+  left: 0;
+  bottom: -0.2em; }
+
+.square.individual:before {
+  transition-delay: 0.6s; }
+
+.square:after {
+  right: 0;
+  top: -0.2em; }
+
+.square.individual:after {
+  transition-delay: 0.2s; }
+
+.square a:before {
+  left: 0;
+  transition: 0.25s all ease; }
+
+.square a:after {
+  right: 0;
+  transition: 0.25s all ease; }
+
+.square.individual a:after {
+  transition: 0.25s all ease 0.4s; }
+
+.square:hover:before, .square:hover:after {
+  height: calc(100% + 0.4em); }
+
+.square:hover a:before, .square:hover a:after {
+  width: 100%; }
 

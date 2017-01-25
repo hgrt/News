@@ -1,0 +1,58 @@
+﻿p {
+    margin: 12px 0;
+    font-size: 36px;
+    padding-right: 24px;
+    color: rgba(255, 255, 255, 0.0980392);
+    -webkit-background-clip:content-box;
+    animation-name: shine;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    background: -webkit-gradient(linear, 0% 0%, 100% 0%, from(rgb(34, 34, 34)), color-stop(0.5, rgb(255, 255, 255)), to(rgb(34, 34, 34))) 0px 0px / 125px 125px no-repeat;
+    line-height: 2em;
+    padding: 0;
+    border: 0;
+    font-weight: normal;
+    outline: 0;
+    display: block;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    text-align: left;
+}
+@keyframes shine {
+    0% {
+        background-position: top left;
+    }
+
+    100% {
+        background-position: top right;
+    }
+}
+::selection {
+    background: #f90;
+    color: #fff;
+
+}
+.mega-header mega-header-only center{
+  
+    padding-bottom: 0;
+    text-align: center;
+    position: relative;
+    border-bottom: 1px solid black;
+    box-shadow: 0 2px 15px black;
+    background: #000 url(https://production-assets.codepen.io/assets/global/texture-codepen-2-d817063398aa9a2b534f3834f8533e2bae759c25933b86cdd149d9f0cc38563d.png);
+    background-position: 0 -5px;
+    padding: 50px 20px 50px 20px;
+    margin: 0 0 20px 0;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: block;
+    color: white;
+    font-family: "Lato", "Lucida Grande","Lucida Sans Unicode", Tahoma, Sans-Serif;
+    line-height: 1.5;
+    font-size: 15px;
+    font-weight: 400;
+
+}

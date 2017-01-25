@@ -1,11 +1,10 @@
 ﻿@import "../../gnews.vars.scss";
 
 .article-section {
-    margin-top: 5px !important;
-    margin-bottom: 0px !important;
-    font-family: $font-family-base;
+    font-family: $font-family-title;
     direction: ltr;
     text-align: left;
+    margin-bottom:12px !important;
 
     .article-body {
         font > br, font > div > img {
@@ -15,7 +14,8 @@
 
     .read-more {
         a {
-            color: darken($color-yellow-base,10%);
+            color: darken($font-color-title,10%);
+             margin-bottom:12px !important;
         }
     }
 }
